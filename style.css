@@ -1,0 +1,52 @@
+.slider,
+.btns {
+  margin-left: 100px;
+}
+
+.slider {
+  width: 300px;
+  height: 200px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.slider__item {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  visibility: hidden;
+}
+
+.slider__item-green {
+  background: green;
+}
+
+.slider__item-blue {
+  background: blue;
+}
+
+.slider__item-yellow {
+  background: yellow;
+}
+
+.slider__item-red {
+  background: red;
+}
+
+.slider__item-active {
+  opacity: 1;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  visibility: visible;
+}
+
+.slider__item-onload {
+  opacity: 1;
+  visibility: visible;
+}
+
+.btns {
+  margin-top: 15px;
+}
+/*# sourceMappingURL=style.css.map */
